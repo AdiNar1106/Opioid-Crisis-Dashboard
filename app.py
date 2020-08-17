@@ -95,7 +95,7 @@ app.layout = html.Div(
             id="header",
             children=[
                 html.Img(id="logo", src=app.get_asset_url("dash-logo.png")),
-                html.H3(children="Opioid Crisis in the United States"),
+                html.H5(children="Opioid Crisis in the United States"),
                 html.H4(children="Rate of US Poison-Induced Deaths"),
                 html.P(
                     id="description",
@@ -207,9 +207,15 @@ app.layout = html.Div(
                         ),
                     ],
                 ),
+                html.Div(
+            id="footer",
+            children=[
+                html.Footer(children="By Aditya Narayanan, reference credits to Python Dash"),
             ],
         ),
-    ],
+     ],
+   ),
+ ],
 )
 
 
