@@ -17,7 +17,7 @@ app = dash.Dash(
         {"name": "viewport", "content": "width=device-width, initial-scale=1.0"}
     ],
 )
-
+app.title = "Opioid Crisis United States"
 server = app.server
 
 # Load data
