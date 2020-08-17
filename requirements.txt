@@ -1,0 +1,6 @@
+dash
+plotly
+cufflinks
+gunicorn
+numpy
+pandas
