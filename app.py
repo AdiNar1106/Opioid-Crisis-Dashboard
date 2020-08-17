@@ -106,16 +106,7 @@ app.layout = html.Div(
                 ),
             ],
         ),
-        html.Div(
-            id="footer",
-            children=[
-                html.Footer(
-                    id="description",
-                    children="By Aditya Narayanan, \
-                        reference from Python Dash tutorials",
-                ),
-            ],
-        ),
+        
         html.Div(
             id="app-container",
             children=[
