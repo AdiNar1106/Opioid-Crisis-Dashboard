@@ -109,7 +109,7 @@ app.layout = html.Div(
         html.Div(
             id="footer",
             children=[
-                html.P(
+                html.Footer(
                     id="description",
                     children="By Aditya Narayanan, \
                         reference from Python Dash tutorials",
