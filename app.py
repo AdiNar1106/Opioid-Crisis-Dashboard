@@ -17,6 +17,7 @@ app = dash.Dash(
         {"name": "viewport", "content": "width=device-width, initial-scale=1.0"}
     ],
 )
+app.title = "Opioid Crisis in United States"
 server = app.server
 
 # Load data
@@ -94,6 +95,7 @@ app.layout = html.Div(
             id="header",
             children=[
                 html.Img(id="logo", src=app.get_asset_url("dash-logo.png")),
+                html.H3(children="Opioid Crisis in the United States"),
                 html.H4(children="Rate of US Poison-Induced Deaths"),
                 html.P(
                     id="description",
@@ -101,6 +103,16 @@ app.layout = html.Div(
                     Tenth Revision (ICD–10). Drug-poisoning deaths are defined as having ICD–10 underlying \
                     cause-of-death codes X40–X44 (unintentional), X60–X64 (suicide), X85 (homicide), or Y10–Y14 \
                     (undetermined intent).",
+                ),
+            ],
+        ),
+        html.Div(
+            id="footer",
+            children=[
+                html.P(
+                    id="description",
+                    children="By Aditya Narayanan, \
+                        reference from Python Dash tutorials",
                 ),
             ],
         ),
