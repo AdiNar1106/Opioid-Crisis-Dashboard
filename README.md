@@ -7,7 +7,7 @@ Poison induced death data was downloaded from CDC Wonder, using cause-of-death c
 ## Inspiration 
 Dash app inspired by CDC Tableau dashboard for Opioid crisis in the United States by County.
 
-### Running the App
+## Running the App
 
 Install requirements
 ```
